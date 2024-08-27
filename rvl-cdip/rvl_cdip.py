@@ -21,25 +21,6 @@ import datasets
 from datasets.tasks import ImageClassification
 
 
-_CITATION = """\
-@inproceedings{harley2015icdar,
-    title = {Evaluation of Deep Convolutional Nets for Document Image Classification and Retrieval},
-    author = {Adam W Harley and Alex Ufkes and Konstantinos G Derpanis},
-    booktitle = {International Conference on Document Analysis and Recognition ({ICDAR})}},
-    year = {2015}
-}
-"""
-
-
-_DESCRIPTION = """\
-The RVL-CDIP (Ryerson Vision Lab Complex Document Information Processing) dataset consists of 400,000 grayscale images in 16 classes, with 25,000 images per class. There are 320,000 training images, 40,000 validation images, and 40,000 test images.
-"""
-
-
-_HOMEPAGE = "https://www.cs.cmu.edu/~aharley/rvl-cdip/"
-
-
-_LICENSE = "https://www.industrydocuments.ucsf.edu/help/copyright/"
 
 
 _URLS = {
